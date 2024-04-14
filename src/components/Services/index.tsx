@@ -31,9 +31,9 @@ export function Services() {
             </div>
             <div className="services__item flex min-h-[288px] flex-col items-center rounded-[10px] bg-white p-[30px] text-center shadow-custom2">
               <div className="mb-[15px]">
-                <img src="assets/icons/services/icon-1.svg" alt="" />
+                <img src="assets/icons/services/icon-2.svg" alt="" />
               </div>
-              <h3 className="h3 mb-[10px]">General Practitioners</h3>
+              <h3 className="h3 mb-[10px]">Pregnancy Support</h3>
               <p className="max-w-[300px] font-light leading-normal">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit.
               </p>
@@ -41,9 +41,9 @@ export function Services() {
 
             <div className="services__item flex min-h-[288px] flex-col items-center rounded-[10px] bg-white p-[30px] text-center shadow-custom2">
               <div className="mb-[15px]">
-                <img src="assets/icons/services/icon-1.svg" alt="" />
+                <img src="assets/icons/services/icon-3.svg" alt="" />
               </div>
-              <h3 className="h3 mb-[10px]">General Practitioners</h3>
+              <h3 className="h3 mb-[10px]">Nutritional Support</h3>
               <p className="max-w-[300px] font-light leading-normal">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit.
               </p>
@@ -51,9 +51,9 @@ export function Services() {
 
             <div className="services__item flex min-h-[288px] flex-col items-center rounded-[10px] bg-white p-[30px] text-center shadow-custom2">
               <div className="mb-[15px]">
-                <img src="assets/icons/services/icon-1.svg" alt="" />
+                <img src="assets/icons/services/icon-4.svg" alt="" />
               </div>
-              <h3 className="h3 mb-[10px]">General Practitioners</h3>
+              <h3 className="h3 mb-[10px]">Pharmaceutical Core</h3>
               <p className="max-w-[300px] font-light leading-normal">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit.
               </p>
