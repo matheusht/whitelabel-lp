@@ -11,8 +11,8 @@ export function Appointment() {
             <span className="text-accent-tertiary">(+487) 384 9452</span>
           </h2>
           <form className="appointment__form flex flex-col gap-y-5">
-            <div>
-              <div className="select relative flex items-center rounded-lg border">
+            <div className="flex flex-col gap-5 xl:flex-row ">
+              <div className="select relative flex w-full items-center rounded-lg border">
                 <div className="absolute right-4">
                   <i>
                     <RiArrowDownSLine className="text-[26px] text-primary" />
@@ -26,7 +26,7 @@ export function Appointment() {
                 </select>
               </div>
 
-              <div className="select relative flex items-center rounded-lg border">
+              <div className="select relative flex  w-full items-center rounded-lg border">
                 <div className="absolute right-4">
                   <i>
                     <RiArrowDownSLine className="text-[26px] text-primary" />
@@ -40,6 +40,33 @@ export function Appointment() {
                 </select>
               </div>
             </div>
+            <div className="flex flex-col gap-5 xl:flex-row">
+              <input
+                type="text"
+                className="input size-full appearance-none rounded-lg border bg-transparent p-4 outline-none"
+                placeholder="Full name"
+              />
+              <input
+                type="text"
+                className="input size-full appearance-none rounded-lg border bg-transparent p-4 outline-none"
+                placeholder="Phone Number"
+              />
+            </div>
+
+            <div className="flex flex-col gap-5 xl:flex-row">
+              <input
+                type="date"
+                className="input size-full appearance-none rounded-lg border bg-transparent p-4 outline-none"
+              />
+              <input
+                type="time"
+                className="input size-full appearance-none rounded-lg border bg-transparent p-4 outline-none"
+              />
+            </div>
+
+            <button className="btn btn-lg btn-accent self-start" type="submit">
+              Book an appointment
+            </button>
           </form>
         </div>
       </section>
