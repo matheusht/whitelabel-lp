@@ -3,6 +3,7 @@ import { Swiper, SwiperSlide } from 'swiper/react'
 
 import { Pagination } from 'swiper/modules'
 import 'swiper/css'
+import 'swiper/css/pagination'
 import { register } from 'swiper/element'
 register()
 
@@ -16,9 +17,14 @@ export function Testimonials() {
               <img src="public/assets/img/testimonials/img.png" alt="" />
             </div>
             <div className="max-w-[98%] xl:max-w-[710px]">
-              <div className="swiper h-[400px]">
+              <Swiper
+                modules={[Pagination]}
+                slidesPerView={1}
+                pagination={{ clickable: true }}
+                className="swiper h-[400px]"
+              >
                 <div className="swiper-wrapper">
-                  <div className="swiper-slide">
+                  <SwiperSlide className="swiper-slide">
                     <div className="flex h-full flex-col items-start justify-center ">
                       <div className="mx-auto max-w-[680px] text-center xl:text-left">
                         <p
@@ -40,9 +46,9 @@ export function Testimonials() {
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </SwiperSlide>
 
-                  <div className="swiper-slide">
+                  <SwiperSlide className="swiper-slide">
                     <div className="flex h-full flex-col items-start justify-center ">
                       <div className="mx-auto max-w-[680px] text-center xl:text-left">
                         <p
@@ -64,10 +70,10 @@ export function Testimonials() {
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </SwiperSlide>
                 </div>
                 <div className="swiper-pagination"></div>
-              </div>
+              </Swiper>
             </div>
           </div>
         </div>
