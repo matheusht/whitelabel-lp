@@ -2,6 +2,7 @@ import { Appointment } from 'components/Appointment'
 import { Header } from 'components/Header'
 import { Services } from 'components/Services'
 import { Stats } from 'components/Stats'
+import { Team } from 'components/Team'
 import { Testimonials } from 'components/Testimonials'
 import { register } from 'swiper/element'
 register()
@@ -14,6 +15,7 @@ export function App() {
       <Services />
       <Appointment />
       <Testimonials />
+      <Team />
     </>
   )
 }

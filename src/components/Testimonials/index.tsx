@@ -33,9 +33,10 @@ export function Testimonials() {
                           after:top-0 after:inline-block after:size-10 after:bg-quoteRight after:bg-contain after:bg-bottom after:bg-no-repeat xl:text-left"
                         >
                           <span className="mx-2">
-                            Lorem ipsum dolor sit amet consectetur, adipisicing
-                            elit. Repellat maiores a tempora ratione dolorum
-                            odio ipsa molestiae officia maxime culpa.
+                            Sou um profissional que tem boa visão analítica e
+                            dinâmica. Decidi cursar engenharia de software pois
+                            acredito que a tecnologia e o futuro do mundo estão
+                            entrelaçado
                           </span>
                         </p>
                         <div className="text-[26px] font-semibold text-[#4c5453]">
@@ -57,13 +58,12 @@ export function Testimonials() {
                           after:top-0 after:inline-block after:size-10 after:bg-quoteRight after:bg-contain after:bg-bottom after:bg-no-repeat xl:text-left"
                         >
                           <span className="mx-2">
-                            Lorem ipsum dolor sit amet consectetur, adipisicing
-                            elit. Repellat maiores a tempora ratione dolorum
-                            odio ipsa molestiae officia maxime culpa.
+                            Graduada desde 2019 pela Unicesumar - Maringá/PR em
+                            Comunicação Social: Publicidade e Propaganda.
                           </span>
                         </p>
                         <div className="text-[26px] font-semibold text-[#4c5453]">
-                          Noque Gicardo Reira
+                          Isabela Theodoro
                         </div>
                         <div className="font-medium uppercase tracking-[2.24px] text-[#9ab4b7]">
                           Customer
