@@ -91,8 +91,8 @@ module.exports = {
         services: 'url(public/assets/img/services/bg.svg)',
         testimonials: 'url(public/assets/img/testimonials/bg.svg)',
         departments: 'url(public/assets/img/departments/bg.svg)',
-        quoteLeft: 'url(public/assets/img/quoteLeft/bg.svg)',
-        quoteRight: 'url(public/assets/img/quoteRight/bg.svg)'
+        quoteLeft: 'url(public/assets/icons/testimonials/quote-left.svg)',
+        quoteRight: 'url(public/assets/icons/testimonials/quote-right.svg)'
       }
     }
   },
