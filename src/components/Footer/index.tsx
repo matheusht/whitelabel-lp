@@ -1,4 +1,13 @@
-import { RiMailFill, RiMapPinFill, RiPhoneFill } from '@remixicon/react'
+import {
+  RiFacebookCircleFill,
+  RiFacebookCircleLine,
+  RiInstagramFill,
+  RiLinkedinFill,
+  RiMailFill,
+  RiMapPinFill,
+  RiPhoneFill,
+  RiTwitterFill
+} from '@remixicon/react'
 
 /* eslint-disable tailwindcss/no-custom-classname */
 export function Footer() {
@@ -19,7 +28,7 @@ export function Footer() {
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Repudiandae asperiores optio porro?
               </p>
-              <div>
+              <div className="mb-10 flex flex-col gap-y-3">
                 <div className="flex items-center gap-x-[6px]">
                   <i>
                     <RiMapPinFill className="text-[24px] text-accent" />
@@ -36,11 +45,102 @@ export function Footer() {
                   <i>
                     <RiPhoneFill className="text-[24px] text-accent" />
                   </i>
-                  <div>123 Arling, Miola, NY</div>
+                  <div>(+123) 456 78910</div>
+                </div>
+              </div>
+              <div className="flex gap-[14px] text-[30px]">
+                <div className="cursor-pointer rounded-[10px] p-[10px] text-accent-tertiary shadow-custom2 transition-all hover:text-accent">
+                  <i>
+                    <RiFacebookCircleFill />
+                  </i>
+                </div>
+                <div className="cursor-pointer rounded-[10px] p-[10px] text-accent-tertiary shadow-custom2 transition-all hover:text-accent">
+                  <i>
+                    <RiInstagramFill />
+                  </i>
+                </div>
+                <div className="cursor-pointer rounded-[10px] p-[10px] text-accent-tertiary shadow-custom2 transition-all hover:text-accent">
+                  <i>
+                    <RiLinkedinFill />
+                  </i>
+                </div>
+                <div className="cursor-pointer rounded-[10px] p-[10px] text-accent-tertiary shadow-custom2 transition-all hover:text-accent">
+                  <i>
+                    <RiTwitterFill />
+                  </i>
                 </div>
               </div>
             </div>
-            <div className="footer__item flex-1">quick links</div>
+            <div className="footer__item flex-1">
+              <h4 className="h4 mb-5">Quick Links</h4>
+              <div className="flex gap-x-5">
+                <ul className="flex flex-1 flex-col gap-y-5">
+                  <li>
+                    <a href="#" className="transition-all hover:text-accent">
+                      Home
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" className="transition-all hover:text-accent">
+                      Doctors
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" className="transition-all hover:text-accent">
+                      Department
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" className="transition-all hover:text-accent">
+                      Services
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" className="transition-all hover:text-accent">
+                      Blog
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" className="transition-all hover:text-accent">
+                      Contact
+                    </a>
+                  </li>
+                </ul>
+
+                <ul className="flex flex-1 flex-col gap-y-5">
+                  <li>
+                    <a href="#" className="transition-all hover:text-accent">
+                      Home
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" className="transition-all hover:text-accent">
+                      Doctors
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" className="transition-all hover:text-accent">
+                      Department
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" className="transition-all hover:text-accent">
+                      Services
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" className="transition-all hover:text-accent">
+                      Blog
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" className="transition-all hover:text-accent">
+                      Contact
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
             <div className="footer__item flex-1">opening hours</div>
           </div>
         </div>
