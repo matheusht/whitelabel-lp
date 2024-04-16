@@ -1,4 +1,5 @@
 import { Appointment } from 'components/Appointment'
+import { Blog } from 'components/Blog'
 import { Departments } from 'components/Departments'
 import { Faq } from 'components/Faq'
 import { Header } from 'components/Header'
@@ -20,6 +21,7 @@ export function App() {
       <Team />
       <Faq />
       <Departments />
+      <Blog />
     </>
   )
 }
