@@ -1,6 +1,5 @@
 import {
   RiFacebookCircleFill,
-  RiFacebookCircleLine,
   RiInstagramFill,
   RiLinkedinFill,
   RiMailFill,
@@ -141,10 +140,54 @@ export function Footer() {
                 </ul>
               </div>
             </div>
-            <div className="footer__item flex-1">opening hours</div>
+            <div className="footer__item flex-1">
+              <h4 className="h4 mb-5">Opening Hours</h4>
+              <div className="flex flex-col gap-5">
+                <div className="flex-1">
+                  <div className="flex items-center justify-between border-b pb-[10px]">
+                    <div>Monday - Thursday</div>
+                    <div className="font-medium text-accent">
+                      8:00 A.m - 6:00 P.m
+                    </div>
+                  </div>
+                </div>
+
+                <div className="flex-1">
+                  <div className="flex items-center justify-between border-b pb-[10px]">
+                    <div>Friday - Saturday</div>
+                    <div className="font-medium text-accent">
+                      10:00 A.m - 4:00 P.m
+                    </div>
+                  </div>
+                </div>
+
+                <div className="flex-1">
+                  <div className="flex items-center justify-between border-b pb-[10px]">
+                    <div>Sunday</div>
+                    <div className="font-medium text-accent">
+                      Emergency Only
+                    </div>
+                  </div>
+                </div>
+                <div className="flex-1">
+                  <div className="flex items-center justify-between border-b pb-[10px]">
+                    <div>Personal</div>
+                    <div className="font-medium text-accent">
+                      7:00 A.m - 9:00 P.m
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-        <div>copyright</div>
+        <div className="border-t py-[30px]">
+          <div className="container mx-auto text-center">
+            <div className="text-base font-light">
+              &copy; 2023 Insove - All rights reserved.
+            </div>
+          </div>
+        </div>
       </footer>
     </>
   )
