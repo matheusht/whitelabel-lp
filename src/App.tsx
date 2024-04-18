@@ -1,8 +1,4 @@
-import { Appointment } from 'components/Appointment'
 import { Blog } from 'components/Blog'
-import { Brands } from 'components/Brands'
-import { Newsletter } from 'components/Newsletter'
-import { Departments } from 'components/Departments'
 import { Faq } from 'components/Faq'
 import { Header } from 'components/Header'
 import { Services } from 'components/Services'
@@ -11,6 +7,8 @@ import { Team } from 'components/Team'
 import { Testimonials } from 'components/Testimonials'
 import { register } from 'swiper/element'
 import { Footer } from 'components/Footer'
+import { Social } from 'components/Social'
+import { Location } from 'components/Location'
 register()
 
 export function App() {
@@ -19,15 +17,13 @@ export function App() {
       <Header />
       <Stats />
       <Services />
-      <Appointment />
       <Testimonials />
       <Team />
       <Faq />
-      <Departments />
       <Blog />
-      <Brands />
-      <Newsletter />
       <Footer />
+      <Location />
+      <Social />
     </>
   )
 }

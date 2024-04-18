@@ -119,6 +119,7 @@ export function Faq() {
           </div>
         </div>
       </section>
+      <div className="mb-[150px]"></div>
     </>
   )
 }

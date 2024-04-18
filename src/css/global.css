@@ -21,6 +21,8 @@
     --secondary: 0 0% 50%;
     --secondary-foreground: 189 9% 15%;
 
+    --green: 131 73% 56%;
+
     --muted: 0 0% 50%;
     --muted-foreground: 220 8.9% 46.1%;
 
@@ -46,6 +48,8 @@
   .dark {
     --background: 228 22% 9%;
     --foreground: 0 0% 100%;
+
+    --green: 131 73% 56%;
 
     --card: 228 22% 9%;
     --card-foreground: 210 20% 98%;

@@ -6,7 +6,7 @@ import {
   RiHeartPulseLine,
   RiMapPin2Fill,
   RiPhoneFill,
-  RiSearchLine
+  RiWhatsappFill
 } from '@remixicon/react'
 import { useState } from 'react'
 
@@ -42,9 +42,10 @@ export function Header() {
             </div>
             <button
               className="btn btn-sm btn-outline mx-auto
-             w-[240px] lg:mx-0 lg:w-auto"
+               w-[240px]  gap-x-2 hover:bg-green-500 lg:mx-0 lg:w-auto"
             >
-              Book now
+              <RiWhatsappFill className="text-green" />
+              Fale Conosco
             </button>
             <nav
               // eslint-disable-next-line tailwindcss/no-custom-classname, tailwindcss/enforces-negative-arbitrary-values
@@ -125,23 +126,6 @@ export function Header() {
                     </a>
                   </li>
                 </ul>
-
-                <form className="relative flex gap-x-[10px]">
-                  <label
-                    htmlFor="
-                  "
-                  >
-                    <i>
-                      <RiSearchLine className="text-2xl text-accent" />
-                    </i>
-                  </label>
-                  <input
-                    type="text"
-                    id="mnav-search-input"
-                    placeholder="Search..."
-                    className="w-[160px] border-b-2 outline-none placeholder:italic focus:border-b-2 focus:border-accent"
-                  />
-                </form>
               </div>
             </nav>
             <nav className="absolute -bottom-[86px] left-0 hidden h-16 w-full rounded-[10px] bg-white shadow-custom1 lg:flex lg:items-center lg:justify-between lg:px-[50px]">
@@ -198,23 +182,6 @@ export function Header() {
                   </a>
                 </li>
               </ul>
-
-              <form className="relative flex gap-x-[10px]">
-                <label
-                  htmlFor="search-input"
-                  className="group flex items-center justify-center"
-                >
-                  <i>
-                    <RiSearchLine className="text-accent" />
-                  </i>
-                </label>
-                <input
-                  type="text"
-                  id="search-input"
-                  placeholder="Search..."
-                  className="focus:border-b2 all w-[100px] outline-none transition-all duration-150 placeholder:text-base placeholder:italic focus:w-[180px] focus:border-accent"
-                />
-              </form>
             </nav>
           </div>
         </div>
